@@ -41,12 +41,12 @@ public class CountDown : MonoBehaviour
 
         if (countDownStartValue == -1)
         {
-            timerUI.text = "Game Over";
+            timerUI.text = "00:00";
         }
 
-        if (timerUI.text == "Game Over")
+        if (timerUI.text == "00:00")
         {
-            SceneManager.LoadScene("GameOverScene");
+            SceneManager.LoadScene("Scene_3");
         }
     }
 }

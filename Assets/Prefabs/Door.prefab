@@ -1024,10 +1024,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -425565630206218756, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56a9976ca774ceb4eb65ad479974ebbf, type: 2}
     - target: {fileID: 919132149155446097, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
       propertyPath: m_Name
       value: Doorway
       objectReference: {fileID: 0}
+    - target: {fileID: 2586607309129781981, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56a9976ca774ceb4eb65ad479974ebbf, type: 2}
+    - target: {fileID: 3566390031902043909, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56a9976ca774ceb4eb65ad479974ebbf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
 --- !u!4 &66731837008589174 stripped

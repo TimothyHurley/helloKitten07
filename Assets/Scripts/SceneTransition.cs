@@ -8,6 +8,6 @@ public class SceneTransition : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene("CheckPointScene");
+            SceneManager.LoadScene("Scene_2");
     }
 }
