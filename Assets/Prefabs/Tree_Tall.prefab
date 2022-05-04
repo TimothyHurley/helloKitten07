@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7573789490007521121}
   - component: {fileID: 547917603674112510}
   - component: {fileID: 6919801698226923172}
-  - component: {fileID: 719852505531710714}
+  - component: {fileID: 3930747712174466996}
   m_Layer: 0
   m_Name: Tree_Tall
   m_TagString: Untagged
@@ -300,8 +300,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6550860574981576405}
   m_Mesh: {fileID: 0}
---- !u!64 &719852505531710714
-MeshCollider:
+--- !u!65 &3930747712174466996
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -310,10 +310,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 9, z: 1}
+  m_Center: {x: 0.5, y: 4.5, z: -0.5}
 --- !u!1001 &8512155407536017948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,7 +367,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7a38b99b62d355448a44a7d9c16a0544, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8a528d668144b604a9d4aa3e4ed72d28, type: 2}
+      objectReference: {fileID: 2100000, guid: c5853b2cf5c6b4a459565e56e1d9b3e8, type: 2}
     - target: {fileID: 919132149155446097, guid: 7a38b99b62d355448a44a7d9c16a0544, type: 3}
       propertyPath: m_Name
       value: Tree_Tall

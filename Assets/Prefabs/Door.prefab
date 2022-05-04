@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 173032983729080983}
   - component: {fileID: 1765136116065095144}
   - component: {fileID: 4463157562678454963}
-  - component: {fileID: 7799370704749741239}
+  - component: {fileID: 3242487938840083944}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -299,8 +299,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184939803053349629}
   m_Mesh: {fileID: 0}
---- !u!64 &7799370704749741239
-MeshCollider:
+--- !u!65 &3242487938840083944
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -309,10 +309,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 3.2, z: 0.5}
+  m_Center: {x: 0.25, y: 1.6, z: -0.25}
 --- !u!1 &4135142130524436346
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +324,7 @@ GameObject:
   - component: {fileID: 1561259037107438586}
   - component: {fileID: 3461860933090642487}
   - component: {fileID: 785785315583790753}
-  - component: {fileID: 2699192498199833069}
+  - component: {fileID: 7247640040686245185}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -612,8 +611,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4135142130524436346}
   m_Mesh: {fileID: 0}
---- !u!64 &2699192498199833069
-MeshCollider:
+--- !u!65 &7247640040686245185
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -622,10 +621,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 3.2, z: 0.5}
+  m_Center: {x: 0.25, y: 1.6, z: -0.25}
 --- !u!1 &6544201240140799944
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +636,7 @@ GameObject:
   - component: {fileID: 7640955821305405248}
   - component: {fileID: 5059453259938327924}
   - component: {fileID: 4028312328668995483}
-  - component: {fileID: 2462797818035568621}
+  - component: {fileID: 220080340323179974}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -925,8 +923,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6544201240140799944}
   m_Mesh: {fileID: 0}
---- !u!64 &2462797818035568621
-MeshCollider:
+--- !u!65 &220080340323179974
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -935,10 +933,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5, z: 3.2}
+  m_Center: {x: 0.25, y: 0.25, z: -1.6}
 --- !u!1 &6864234733247535982
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1024,7 @@ PrefabInstance:
     - target: {fileID: -425565630206218756, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 56a9976ca774ceb4eb65ad479974ebbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 8a528d668144b604a9d4aa3e4ed72d28, type: 2}
     - target: {fileID: 919132149155446097, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
       propertyPath: m_Name
       value: Doorway
@@ -1035,11 +1032,11 @@ PrefabInstance:
     - target: {fileID: 2586607309129781981, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 56a9976ca774ceb4eb65ad479974ebbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 8a528d668144b604a9d4aa3e4ed72d28, type: 2}
     - target: {fileID: 3566390031902043909, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 56a9976ca774ceb4eb65ad479974ebbf, type: 2}
+      objectReference: {fileID: 2100000, guid: 8a528d668144b604a9d4aa3e4ed72d28, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d19c7131843a404a9d8dd1374cdac0d, type: 3}
 --- !u!4 &66731837008589174 stripped

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8837671307565128905}
   - component: {fileID: 1568707198208132598}
   - component: {fileID: 9115333554700898847}
-  - component: {fileID: 1516569461637577793}
+  - component: {fileID: 7403707252085122580}
   m_Layer: 0
   m_Name: Tree_Mid
   m_TagString: Untagged
@@ -420,8 +420,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3671523204545746681}
   m_Mesh: {fileID: 0}
---- !u!64 &1516569461637577793
-MeshCollider:
+--- !u!65 &7403707252085122580
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -430,10 +430,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 7, z: 0.7}
+  m_Center: {x: 0.25, y: 3.5, z: -0.25}
 --- !u!1001 &4103410628689548473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -485,6 +484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -425565630206218756, guid: 17258b1ab8891e0459e651f605f23186, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 686a3d5127656824d8aa5aa1f0f001e0, type: 2}
     - target: {fileID: -264430861247414160, guid: 17258b1ab8891e0459e651f605f23186, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

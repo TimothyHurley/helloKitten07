@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
-    int countDownStartValue = 15;
+    int countDownStartValue = 6;
     public Text timerUI;
 
     void onTriggerEnter(Collider other)
