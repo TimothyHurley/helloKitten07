@@ -31,7 +31,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8190914413824816631}
+  - {fileID: 3534446226070440549}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -313,7 +313,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 9, z: 1}
   m_Center: {x: 0.5, y: 4.5, z: -0.5}
---- !u!1001 &8512155407536017948
+--- !u!1001 &3928925996867874190
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -367,15 +367,15 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7a38b99b62d355448a44a7d9c16a0544, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c5853b2cf5c6b4a459565e56e1d9b3e8, type: 2}
+      objectReference: {fileID: 2100000, guid: 216846c4164d3b54f8875431b47ee7be, type: 2}
     - target: {fileID: 919132149155446097, guid: 7a38b99b62d355448a44a7d9c16a0544, type: 3}
       propertyPath: m_Name
-      value: Tree_Tall
+      value: Tree_Tall (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a38b99b62d355448a44a7d9c16a0544, type: 3}
---- !u!4 &8190914413824816631 stripped
+--- !u!4 &3534446226070440549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7a38b99b62d355448a44a7d9c16a0544, type: 3}
-  m_PrefabInstance: {fileID: 8512155407536017948}
+  m_PrefabInstance: {fileID: 3928925996867874190}
   m_PrefabAsset: {fileID: 0}
