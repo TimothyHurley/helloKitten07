@@ -8,6 +8,6 @@ public class LevelClear : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene("GameOverScene");
+            SceneManager.LoadScene("Scene_4");
     }
 }
