@@ -1104,6 +1104,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4509804
       objectReference: {fileID: 0}
+    - target: {fileID: 5294179657872066671, guid: c69c5c1c69540e043a4a25286f048475, type: 3}
+      propertyPath: m_Intensity
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6627174193095027392, guid: c69c5c1c69540e043a4a25286f048475, type: 3}
       propertyPath: m_Name
       value: Branch_Lantern (1)
